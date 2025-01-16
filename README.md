@@ -36,7 +36,7 @@ A simple React.js application that displays a list of users fetched from an API.
 - CSS for styling.
 
 ### Backend:
-- Fetches data from the JSONPlaceholder API
+- Fetches data from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
 
 ---
 
