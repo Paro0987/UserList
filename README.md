@@ -7,10 +7,12 @@ A simple React.js application that displays a list of users fetched from an API.
 ## **Features**
 
 - **Home Page**:
-  - Fetch and display a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
-  - Search functionality to filter users by name.
-  - Sorting options (A-Z, Z-A) for user names.
-  - Responsive design for mobile and desktop.
+ - Fetches and displays a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- Search functionality to filter users by name.
+- Sorting options for user names (A-Z, Z-A).
+- Pagination to navigate through the list of users.
+- Fully responsive for both mobile and desktop.
+- Toggle between dark and light modes.
 - **User Detail Page**:
   - Displays complete user information, including name, email, phone, company, and website.
   - "Go Back" button to navigate back to the Home Page.
@@ -28,12 +30,10 @@ A simple React.js application that displays a list of users fetched from an API.
 ## Tech Stack
 
 ### Frontend:
-- Fetches and displays a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
-- Search functionality to filter users by name.
-- Sorting options for user names (A-Z, Z-A).
-- Pagination to navigate through the list of users.
-- Fully responsive for both mobile and desktop.
-- Toggle between dark and light modes.
+- React.js with functional components and hooks.
+- React Router for navigation.
+- Redux Toolkit for state management.
+- CSS for styling.
 
 ### Backend:
 - Fetches data from the JSONPlaceholder API
