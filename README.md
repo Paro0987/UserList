@@ -61,18 +61,19 @@ A simple React.js application that displays a list of users fetched from an API.
 ---
 - **Home Page**
 ---
-![User Table](./Assets/Home Page.png)
+![Home Page](./Assets/Home%20Page.png)
 
 ---
 - **User Details Page**
 ---
-![User Details](./Assets/User Detail.png)
+![User Details Page](./Assets/User%20Detail%20Page.png)
+
 ---
 
 - **Dark Mode**
 
 ---
-![Dark Mode](./Assets/Dark Mode.png)
+![Dark Mode](./Assets/Dark%20Mode.png)
 
 ---
 
