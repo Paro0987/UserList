@@ -54,4 +54,46 @@ A simple React.js application that displays a list of users fetched from an API.
 4. **Start the Development Server**:
    ```
    npm start
-   
+
+  ---
+### Screenshots :camera:
+
+---
+- **Home Page**
+---
+![Nordstorm](./Readme_Photos/Homepage.png)
+
+![1 2](./assets/home2.png)
+---
+- **Register page**
+---
+![sign](./Readme_Photos/RegisterPage.png)
+---
+
+
+
+---
+- **Log In page**
+
+---
+![Login](./Readme_Photos/Login.png)
+
+---
+- **Product Page**
+---
+![product](./Readme_Photos/Productpage.png)
+
+
+---
+- **category section**
+---
+![category](./assets/category.png)
+
+
+---
+- **checkout page**
+---
+![checkout](./assets/checkout.png)
+
+
+---
