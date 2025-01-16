@@ -1,0 +1,482 @@
+/* General styles for the application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* Loader styles */
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error message styles */
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: #e74c3c;
+  margin: 20px;
+}
+
+/* UserCard container */
+.user-card {
+  padding: 20px;
+}
+
+/* Title for the HomePage */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Table container for UserCard */
+.user-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.user-table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* UserCard styles */
+.user-card-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.user-card-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-card-item h1 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #34495e;
+}
+
+.user-card-item ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.user-card-item ul li {
+  margin: 5px 0;
+}
+
+.user-card-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pagination button:hover {
+  background: #2980b9;
+}
+
+.pagination button:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #34495e;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-home .navbar-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar-home .navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-container h1 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* UserDetailPage.css */
+.user-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.card h1 {
+  color: #333;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.card strong {
+  color: #000;
+}
+
+.card a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.go-back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.go-back-button:hover {
+  background-color: #218838;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  /* Adjust layout for tablets */
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-card-item {
+    width: 45%;
+  }
+
+  .pagination {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .user-card-item {
+    width: 100%; 
+  }
+
+  .user-table {
+    font-size: 14px;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pagination button {
+    margin: 10px 0;
+  }
+
+  .search-input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .card h1 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .go-back-button {
+    font-size: 14px;
+  }
+
+  .navbar-search {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+/* Dark Mode */
+.dark .navbar{
+  color: white;
+  background-color: rgb(94, 92, 92);
+}
+
+.dark .navbar button {
+  background-color: #8e44ad;
+}
+
+.dark .navbar button:hover {
+  background-color: #6d3b7d;
+}
+
+.dark .user-table th {
+  color: white;
+  background-color: rgb(94, 92, 92);
+}
+
+
+
+.dark .user-detail-container{
+  background: #2c3e50;
+  color: #f9f9f9;
+}
+
+.dark .card {
+  background-color: black;
+  color: #f9f9f9;
+}
+.dark .card strong {
+  color: #f9f9f9;
+}
+
+.dark .card h1{
+  color: white;
+}
+
+.dark .card button {
+  background-color: #8e44ad;
+}
+
+.dark .card button:hover {
+  background-color: #6d3b7d;
+}
+
+.dark .pagination button {
+  background-color: #8e44ad;
+}
+
+.dark .pagination button:hover {
+  background-color: #6d3b7d;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
+body .dark{
+  background-color: black;
+  color: white;
+}
+
+.toggle button {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  padding: 8px 12px; 
+  font-size: 12px; 
+  font-weight: bold;
+  color: white;
+  background-color: #76a0cc; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+
+.toggle button:hover {
+  background-color: #6796c9; /* Slightly darker blue on hover */
+}
+
+.toggle button:active {
+  background-color: #2e537a; /* Even darker blue on click */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* Reduced shadow on click */
+  transform: scale(0.95); /* Subtle press effect */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .toggle button {
+    top: 20px; 
+    padding: 6px 10px; 
+    font-size: 12px; 
+  }
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 1200px) {
+  .toggle button {
+    top: 80px; 
+    right: 20px; 
+    padding: 5px 10px; 
+    font-size: 16px; 
+  }
+}
