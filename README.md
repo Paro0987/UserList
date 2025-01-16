@@ -23,12 +23,35 @@ A simple React.js application that displays a list of users fetched from an API.
 
 ## **Demo**
 
-🚀 [https://user-list-one-mu.vercel.app/](#) 
+🚀 [Deployment Link](https://user-list-one-mu.vercel.app/)
+---
+## Tech Stack
+
+### Frontend:
+- Fetches and displays a list of users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+- Search functionality to filter users by name.
+- Sorting options for user names (A-Z, Z-A).
+- Pagination to navigate through the list of users.
+- Fully responsive for both mobile and desktop.
+- Toggle between dark and light modes.
+
+### Backend:
+- Fetches data from the JSONPlaceholder API
+
 ---
 
+## Installation and Setup
+- Follow these steps to set up and run the project locally:
 ## **Installation**
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/user-list.git
-   cd user-list
+   git clone https://github.com/Paro0987/UserList.git
+   cd frontend
+2. **Install Dependencies**:
+   ```
+   npm install
+4. **Start the Development Server**:
+   ```
+   npm start
+   
