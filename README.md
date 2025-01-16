@@ -61,39 +61,18 @@ A simple React.js application that displays a list of users fetched from an API.
 ---
 - **Home Page**
 ---
-![Nordstorm](./Readme_Photos/Homepage.png)
-
-![1 2](./assets/home2.png)
----
-- **Register page**
----
-![sign](./Readme_Photos/RegisterPage.png)
----
-
-
+![User Table](./Assets/Home Page.png)
 
 ---
-- **Log In page**
+- **User Details Page**
+---
+![User Details](./Assets/User Detail.png)
+---
+
+- **Dark Mode**
 
 ---
-![Login](./Readme_Photos/Login.png)
+![Dark Mode](./Assets/Dark Mode.png)
 
 ---
-- **Product Page**
----
-![product](./Readme_Photos/Productpage.png)
 
-
----
-- **category section**
----
-![category](./assets/category.png)
-
-
----
-- **checkout page**
----
-![checkout](./assets/checkout.png)
-
-
----
