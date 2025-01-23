@@ -51,7 +51,7 @@ A simple React.js application that displays a list of users fetched from an API.
 2. **Install Dependencies**:
    ```
    npm install
-4. **Start the Development Server**:
+3. **Start the Development Server**:
    ```
    npm start
 
